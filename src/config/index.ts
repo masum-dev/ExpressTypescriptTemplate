@@ -1,5 +1,5 @@
 // This file contains all the basic configuration logic for the app server to work
-import dotenv from "dotenv";
+import dotenv from 'dotenv';
 
 type ServerConfig = {
     PORT: number;
@@ -7,7 +7,7 @@ type ServerConfig = {
 
 function loadEnv() {
     dotenv.config();
-    console.log(".env variables are loaded");
+    console.log('.env variables are loaded');
 }
 
 loadEnv();
