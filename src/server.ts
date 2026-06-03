@@ -5,6 +5,8 @@ import v2Router from './routers/v2/index.router.ts';
 
 const app = express();
 
+app.use(express.json());
+
 /** Registering all the routers and their corresponding
  *  routes with the app object.
  */
